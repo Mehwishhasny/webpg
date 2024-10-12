@@ -21,25 +21,22 @@ export default function Home() {
       src="/images/home.jpeg" 
       alt="Hero Image" 
       width={320} 
-      height={440} 
-      object="cover"
-      className="sm:absolute sm:translate-x-[20%] sm:translate-y-[-135%] sm:z-40"
+      height={440}
+      className="sm:absolute sm:translate-x-[20%] sm:translate-y-[-135%] sm:z-40 sm:object-cover"
     />
     <Image 
       src="/images/home2.jpg" 
       alt="Hero Image" 
       width={420} 
       height={640} 
-      object="cover"
-      className="sm:absolute sm:translate-x-[50%] sm:translate-y-[-45%] sm:z-10"
+      className="sm:absolute sm:translate-x-[50%] sm:translate-y-[-45%] sm:z-10 sm:object-cover"
     />
     <Image 
       src="/images/home3.jpg" 
       alt="Hero Image" 
       width={320} 
       height={440} 
-      object="cover"
-      className="sm:absolute sm:translate-x-[20%] sm:translate-y-[55%] sm:z-40"
+      className="sm:absolute sm:translate-x-[20%] sm:translate-y-[55%] sm:z-40 sm:object-cover"
     />
 </div>
 </div>
