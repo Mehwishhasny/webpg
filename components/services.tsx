@@ -1,10 +1,9 @@
-
 import Image from 'next/image';
 
 export function Services() {
     return (
         <div className="flex flex-col p-8 items-center sm:h-screen min-h-screen w-full">
-            <h2 className="sm:text-3xl text-2xl font-bold text-blue-800 text-center mb-8">WHAT WE'RE OFFERING</h2>
+            <h2 className="sm:text-3xl text-2xl font-bold text-blue-800 text-center mb-8">WHAT WE ARE OFFERING</h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-6 mt-8 mb-10">
                 
