@@ -22,7 +22,7 @@ export default function Home() {
       alt="Hero Image" 
       width={320} 
       height={440}
-      className="sm:absolute sm:translate-x-[20%] sm:translate-y-[-135%] sm:z-40 sm:object-cover"
+      className="sm:absolute sm:translate-x-[20%] sm:translate-y-[-135%] translate-x-[5%] justify-center items-center sm:z-40 object-cover"
     />
     <Image 
       src="/images/home2.jpg" 
@@ -36,7 +36,7 @@ export default function Home() {
       alt="Hero Image" 
       width={320} 
       height={440} 
-      className="sm:absolute sm:translate-x-[20%] sm:translate-y-[55%] sm:z-40 sm:object-cover"
+      className="sm:absolute sm:translate-x-[20%] sm:translate-y-[55%] translate-x-[4%] justify-center items-center sm:z-40 object-cover"
     />
 </div>
 </div>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Portfolio(){
     return(
-        <div className="flex flex-col sm:h-screen min-h-screen">
+        <div className="flex flex-col sm:h-screen min-h-screen bg-white">
         <Header />
         <div className="flex-grow w-full flex flex-col justify-center items-center bg-cover bg-center mb-10 mt-10"
           style={{
@@ -28,7 +28,7 @@ export default function Portfolio(){
                 </div>
         
 
-<div className="flex flex-row justify-center gap-4 grid grid-cols-2 flex-wrap sm:w-1/2 w-full">
+<div className="flex flex-row justify-center gap-4 grid sm:grid-cols-2 grid-col-1 flex-wrap sm:w-1/2 w-full">
             <div className="bg-gradient-to-r from-blue-200 to-gray-200 rounded-lg p-4 m-6 flex flex-col items-center cursor-pointer hover:bg-gray-400 hover:bg-none">
         <Link href="https://www.google.com">
         <Image 
@@ -38,7 +38,7 @@ export default function Portfolio(){
         height={250}
         className="rounded-lg"
         />
-         <h3 className="mt-4 sm:text-xl text-lg font-semibold text-center">Logo Designing</h3>
+         <h3 className="mt-4 sm:text-xl text-lg font-semibold text-center text-black">Logo Designing</h3>
          </Link>
         </div>
 
@@ -51,7 +51,7 @@ export default function Portfolio(){
         height={250}
         className="rounded-lg"
         />
-         <h3 className="mt-4 sm:text-xl text-lg font-semibold">E-commerce Website</h3>
+         <h3 className="mt-4 sm:text-xl text-lg font-semibold text-black">E-commerce Website</h3>
         </div>
         </Link>
 
@@ -64,7 +64,7 @@ export default function Portfolio(){
         height={250}
         className="rounded-lg"
         />
-         <h3 className="mt-4 sm:text-xl text-lg font-semibold">Mobile Application</h3>
+         <h3 className="mt-4 sm:text-xl text-lg font-semibold text-black">Mobile Application</h3>
         </div>
         </Link>
 
@@ -77,7 +77,7 @@ export default function Portfolio(){
         height={250}
         className="rounded-lg"
         />
-         <h3 className="mt-4 sm:text-xl text-lg font-semibold">Weather App</h3>
+         <h3 className="mt-4 sm:text-xl text-lg font-semibold text-black">Weather App</h3>
         </div>
         </Link>
 
@@ -90,7 +90,7 @@ export default function Portfolio(){
         height={250}
         className="rounded-lg"
         />
-         <h3 className="mt-4 sm:text-xl text-lg font-semibold">Digital Marketing</h3>
+         <h3 className="mt-4 sm:text-xl text-lg font-semibold text-black">Digital Marketing</h3>
         </div>
         </Link>
 </div>

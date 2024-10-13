@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-white">
       <Header />
       <div className="flex-grow w-full flex flex-col justify-center items-center bg-cover bg-center mb-10 mt-10"
         style={{
@@ -21,7 +21,7 @@ export default function About() {
         <div className="flex flex-col">
         <h2 className="text-3xl font-bold text-white text-center mt-20">MEET OUR TEAM</h2>
 
-        <div className="flex flex-row justify-center gap-6 grid grid-cols-3 flex-wrap">
+        <div className="flex flex-row justify-center gap-6 grid sm:grid-cols-3 grid-col-1 flex-wrap">
             <div className="bg-gradient-to-r from-blue-200 to-gray-200 rounded-lg p-4 m-6 flex flex-col items-center">
         <Image 
         src="/images/team1.png"
@@ -30,7 +30,7 @@ export default function About() {
         height={250}
         className="rounded-full"
         />
-         <h3 className="mt-4 text-xl font-semibold">Jane Smith</h3>
+         <h3 className="mt-4 text-xl font-semibold text-black">Jane Smith</h3>
           <p className="text-center text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 

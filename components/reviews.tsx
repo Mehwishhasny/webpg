@@ -27,7 +27,7 @@ export function Reviews() {
                             width={200}
                             className="rounded-full object-cover"
                         />
-                        <p className="font-lg text-center mt-4"> Best performance! <br /> Had a great experience with the team. </p>
+                        <p className="font-lg text-center mt-4 text-black"> Best performance! <br /> Had a great experience with the team. </p>
                     </div>
 
                     <div className="flex flex-col items-center mb-6">
@@ -38,7 +38,7 @@ export function Reviews() {
                             width={200}
                             className="rounded-full object-cover"
                         />
-                        <p className="font-lg text-center mt-4"> Superior design! <br /> Had a great experience with the team. </p>
+                        <p className="font-lg text-center mt-4 text-black"> Superior design! <br /> Had a great experience with the team. </p>
                     </div>
 
                     <div className="flex flex-col items-center mt-8">
@@ -49,7 +49,7 @@ export function Reviews() {
                             width={200}
                             className="rounded-full object-cover"
                         />
-                        <p className="font-lg text-center mt-4"> Great support! <br /> Had a great experience with the team. </p>
+                        <p className="font-lg text-center mt-4 text-black"> Great support! <br /> Had a great experience with the team. </p>
                     </div>
 
                     <div className="flex flex-col items-center mt-8">
@@ -60,7 +60,7 @@ export function Reviews() {
                             width={200}
                             className="rounded-full object-cover"
                         />
-                        <p className="font-lg text-center mt-4"> Fantastic service! <br /> Had a great experience with the team. </p>
+                        <p className="font-lg text-center mt-4 text-black"> Fantastic service! <br /> Had a great experience with the team. </p>
                     </div>
 
                 </div>
