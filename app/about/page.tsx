@@ -42,7 +42,7 @@ export default function About() {
         height={200}
         className="rounded-full"
         />
-         <h3 className="mt-4 text-xl font-semibold">Kate Smith</h3>
+         <h3 className="mt-4 text-xl font-semibold text-black">Kate Smith</h3>
           <p className="text-center text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
@@ -54,7 +54,7 @@ export default function About() {
         height={220}
         className="rounded-full"
         />
-         <h3 className="mt-4 text-xl font-semibold">John Datte</h3>
+         <h3 className="mt-4 text-xl font-semibold text-black">John Datte</h3>
           <p className="text-center text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
@@ -66,7 +66,7 @@ export default function About() {
         height={160}
         className="rounded-full"
         />
-         <h3 className="mt-4 text-xl font-semibold">Robinson Hagwartts</h3>
+         <h3 className="mt-4 text-xl font-semibold text-black">Robinson Hagwartts</h3>
           <p className="text-center text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
@@ -78,7 +78,7 @@ export default function About() {
         height={300}
         className="rounded-full"
         />
-         <h3 className="mt-4 text-xl font-semibold">Emma Johnson</h3>
+         <h3 className="mt-4 text-xl font-semibold text-black">Emma Johnson</h3>
           <p className="text-center text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
@@ -90,7 +90,7 @@ export default function About() {
         height={200}
         className="rounded-full"
         />
-         <h3 className="mt-4 text-xl font-semibold">Leo Mathew</h3>
+         <h3 className="mt-4 text-xl font-semibold text-black">Leo Mathew</h3>
           <p className="text-center text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
     

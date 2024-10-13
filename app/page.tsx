@@ -1,13 +1,17 @@
+"use client";
+
 import Image from 'next/image';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { Services } from '@/components/services';
 import { Reviews } from '@/components/reviews';
+import HeroSlider from '@/components/slider';
 
 export default function Home() {
   return (
 <div className="bg-white">
     <Header />
+<HeroSlider />
 
     <div className="w-full flex sm:flex-row flex-col min-h-screen sm:h-screen items-center justify-center sm:mb-40 mb-20 sm:p-4">
       <div className="flex flex-col text-blue-800 text-left p-6 sm:w-1/2 w-full mt-6">
